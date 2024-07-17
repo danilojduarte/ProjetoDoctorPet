@@ -6,3 +6,12 @@
 	text-decoration: none;
 	list-style: none;
 }
+
+:root {
+  --cor-marron: #3e1908;
+  --cor-bege: #ca7c62;
+  --cor-bg: #EDE9E0;
+
+  --cor-p: #A4A2A1;
+
+}
