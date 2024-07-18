@@ -33,4 +33,56 @@ header {
   top: 0;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 25px 18%;
+  z-index: 100;
+  transition: all .35s ease;
+}
+.logo  {
+ font-size: 1.8rem;
+ color: var(--cor-marron);
+ font-weight: bold;
+}
+.logo span {
+  color: var(--cor-bege);
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.navbar a {
+  font-size: var(--font-p);
+  color: var(--cor-bege);
+  padding: 10px 28px;
+  font-weight: 700;
+  transition: all .35s ease;
+}
+.navbar a:hover {
+  color: var(--cor-marron);
+}
+.navbar a.active {
+  color: var(--cor-marron);
+}
+#menu-icon {
+  color: var(--cor-bege);
+  font-size: 40px;
+  z-index: 10001;
+  cursor: pointer;
+  display: none;
+}
+.top-btn a {
+  display: inline-block;
+  background: #ca7c62;
+  color: var(--cor-branca);
+  padding: 10px 22px;
+  border-radius: 30px;
+  border: none;
+  font-size: 17px;
+  font-weight: 700;
+  transition: all .35s ease;
+  cursor: pointer;
+}
+.top-btn a:hover {
+  background: transparent;
+  color: var(--cor-marron);
 }
