@@ -1,3 +1,4 @@
+/* =========== RESET CSS =========== */
 *{
 	padding: 0;
 	margin: 0;
@@ -8,12 +9,14 @@
   scroll-behavior: smooth;
 }
 
+/* =========== DECLARAÇÕES DO PROJETO =========== */
 :root {
   --cor-marron: #3e1908;
   --cor-bege: #ca7c62;
   --cor-bg: #EDE9E0;
   --cor-branca: #fff;
   --cor-preta:#000;
+  --cor-vermelho: #ea1935d9;
 
   --cor-p: #A4A2A1;
 
@@ -26,6 +29,12 @@ body {
   color: var(--cor-branca);
   background: var(--cor-bg);
 }
+section {
+  padding:  80px 18%;
+}
+
+
+/* =========== HEADER =========== */
 header {
   position: fixed;
   width: 100%;
@@ -72,17 +81,71 @@ header {
 }
 .top-btn a {
   display: inline-block;
-  background: #ca7c62;
+  background: var(--cor-vermelho);
   color: var(--cor-branca);
   padding: 8px 22px;
   border-radius: 30px;
   border: none;
   font-size: 17px;
   font-weight: 700;
-  transition: all .35s ease;
+  transition: all .45s ease;
   cursor: pointer;
 }
 .top-btn a:hover {
   background: transparent;
   color: var(--cor-marron);
+  box-shadow: 0px 15px 22px rgba(250, 26, 56, 0.249);
+}
+
+/* =========== HOME =========== */
+.home {
+  height: 90vh;
+  width: 100%;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  grid-gap: 8rem;
+}
+.home h1 {
+  margin: 20px 0px 20px;
+  font-size: var(--font-big);
+  line-height: 1.1;
+  color: #3e1908;
+}
+.home h1, p span {
+  color: var(--cor-bege);
+}
+.home h3 {
+  color: var(--cor-preta);
+  font-size: 30px;
+  font-weight: 600;
+}
+.home p {
+  font-size: var(--font-p);
+  color: #A4A2A1;
+  line-height: 27px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.btn {
+  display: inline-block;
+  background: var(--cor-vermelho);
+  color: var(--cor-branca);
+  padding: 8px 22px;
+  border-radius: 30px;
+  border: none;
+  font-size: 17px;
+  font-weight: 700;
+  transition: all .45s ease;
+  cursor: pointer;
+}
+.btn:hover {
+  background: transparent;
+  color: var(--cor-marron);
+  box-shadow: 0px 15px 22px rgba(250, 26, 56, 0.249);
+}
+.home-img img {
+  width: 50%;
+  height: auto;
 }
