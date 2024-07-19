@@ -150,3 +150,23 @@ header {
   width: 100%;
   height: auto;
 }
+
+
+/* =========== SOBRE =========== */
+.sobre {
+  background: url(../img/sobre-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  align-items: center;
+  grid-gap: 3rem
+}
+
+.sobre-img img {
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+  border-radius: 18px 18px;
+  /* Ajustar Border-radius */
+}
