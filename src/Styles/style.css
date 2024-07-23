@@ -220,9 +220,12 @@ header.sticky {
 .box {
   padding: 15px 50px 15px 50px;
   background: var(--cor-branca);
-  box-shadow: 0px 5px 40px rgb(19, 8 73 / 13%);
+  box-shadow: 0px 5px 40px rgb(19, 18 73 / 23%);
   border-radius: 20px;
   transition: all .40s ease;
+}
+.box:hover {
+  transform: scale(1.04) translateY(-5px);
 }
 .box-content {
   display: flex;
@@ -249,5 +252,8 @@ header.sticky {
   line-height: 22px;
   font-weight: 200;
   margin-bottom: 20px;
-  
+}
+.box-btn {
+  text-align: center;
+  margin-top: 4rem;
 }
