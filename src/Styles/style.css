@@ -13,7 +13,7 @@
 :root {
   --cor-marron: #3e1908;
   --cor-bege: #ca7c62;
-  --cor-bg: #EDE9E0;
+  --cor-bg: #ffdf9668;
   --cor-branca: #fff;
   --cor-preta:#000;
   --cor-vermelho: #ea1935d9;
@@ -191,9 +191,63 @@ header.sticky {
 }
 
 /* =========== SERVIÇOS =========== */
-.servicos-cards {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.servicos-texto {
   text-align: center;
+}
+.servicos-texto h2 {
+  font-size: var(--font-h2);
+  color: var(--cor-bege);
+  margin: 10px 0px 5px;
+  line-height: 1.1;
+}
+.servicos-texto p {
+  font-size: var(--font-p);
+  color: var(--cor-preta);
+  text-align: center;
+  line-height: 22px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding-top: 1rem;
+}
+.servicos-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  grid-gap: 2rem;
+  align-items: center;
+  margin-top: 4.5rem;
+  cursor: pointer;
+}
+.box {
+  padding: 15px 50px 15px 50px;
+  background: var(--cor-branca);
+  box-shadow: 0px 5px 40px rgb(19, 8 73 / 13%);
+  border-radius: 20px;
+  transition: all .40s ease;
+}
+.box-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+}
+.box-img img {
+  width: 100%;
+  height: auto;
+}
+.box-texto h3 {
+  color: var(--cor-marron);
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.box-texto p {
+  font-size: var(--font-p);
+  color: var(--cor-preta);
+  text-align: center;
+  line-height: 22px;
+  font-weight: 200;
+  margin-bottom: 20px;
+  
 }
