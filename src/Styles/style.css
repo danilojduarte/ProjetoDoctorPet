@@ -257,3 +257,18 @@ header.sticky {
   text-align: center;
   margin-top: 4rem;
 }
+
+/* =========== CLIENTES =========== */
+.clientes-texto h2 {
+  font-size: var(--font-h2);
+  color: var(--cor-bege);
+  margin: 10px 0px 5px;
+  line-height: 1.1;
+}
+.clientes-texto h3 {
+  font-size: var(--font-p);
+  color: var(--cor-preta);
+  line-height: 27px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
