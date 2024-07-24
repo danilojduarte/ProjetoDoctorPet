@@ -259,10 +259,19 @@ header.sticky {
 }
 
 /* =========== CLIENTES =========== */
+.clientes-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  grid-gap: 2rem;
+  align-items: center;
+  margin-top: 2rem;
+  cursor: pointer;
+  text-align: center;
+}
 .clientes-texto h2 {
   font-size: var(--font-h2);
   color: var(--cor-bege);
-  margin: 10px 0px 5px;
+  margin: 2px 0px 5px;
   line-height: 1.1;
 }
 .clientes-texto h3 {
@@ -271,4 +280,27 @@ header.sticky {
   line-height: 27px;
   font-weight: 400;
   margin-bottom: 30px;
+}
+
+.row {
+  padding: 20px 10px;
+  background-color: var(--cor-branca);
+  box-shadow: 0px 5px 40px rgb(19, 18 73 / 23%);
+  border-radius: 20px;
+  transition: all .40s ease;
+
+  display: flex;
+  justify-content: space-between;
+  
+}
+.clientes-img img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 7px solid var(--cor-bege);
+  margin-bottom: 25px;
+}
+.clientes-desciption h4 {
+  
 }
