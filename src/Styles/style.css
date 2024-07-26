@@ -388,3 +388,11 @@ p span {
   font-weight: 200;
   text-align: justify;
 }
+
+
+/* =========== CONTATO =========== */
+.container {
+  padding: 70px 80px;
+  box-shadow: 0px 5px 40px rgb(19 8 73 / 13%);
+  border-radius: 20px;
+}
