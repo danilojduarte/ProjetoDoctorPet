@@ -399,18 +399,21 @@ p span {
 .newslatter-content {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  gap: 2rem;
   align-items: center;
-  gap: 1rem;
+  justify-content: space-between;
   /* flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 10px; */
+  gap: 40px; */
 }
-
+.news-img {
+  display: inline-flex;
+  padding: 0;
+  margin: 0;
+}
 .news-img img {
-  width: 50%;
-  text-align: center;
+  width: 20%;
 }
 .news-texto h2 {
   font-size: 30px;
@@ -424,5 +427,4 @@ p span {
   color: var(--cor-preta);
   line-height: 1.1;
   font-weight: 200;
-  text-align: left;
 }
