@@ -547,3 +547,12 @@ p span {
   font-size: 19px;
   color: var(--cor-bege);
 }
+
+
+/* =========== FOOTER =========== */
+
+
+.footer {
+  padding: 80px 18%;
+
+}
