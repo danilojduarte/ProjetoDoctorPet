@@ -555,4 +555,76 @@ p span {
 .footer {
   width: 100%;
   background: var(--cor-marron);
+
+}
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  grid-gap: 2rem;
+}
+.footer-box h3 {
+  margin-bottom: 1.5rem;
+  font-size: 22px;
+}
+.footer-box h3 span {
+  color: var(--cor-bege);
+}
+.footer-box h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--cor-p);
+}
+.social {
+  display: flex;
+  margin-top: 1.7rem;
+}
+.social i {
+  font-size: 26px;
+  margin-right: 1rem;
+  color: var(--cor-bege);
+  transition: all .40s ease;
+}
+.social i:hover {
+   transform: scale(1.4);
+}
+.footer-box li {
+  margin-bottom: 14px;
+}
+.footer-box li a {
+  display: block;
+  color: var(--cor-bege);
+  font-size: var(--font-p);
+  font-weight: 600;
+  transition: all .35s ease;
+}
+.footer-box li a:hover {
+  transform: translateX(10px);
+  color: var(--cor-branca);
+}
+.address {
+  display: flex;
+  flex-direction: column;
+}
+.address i {
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+  color: var(--cor-bg);
+}
+.address span {
+  margin-left: 1rem;
+  color: var(--cor-bege);
+}
+
+/* texto-final */
+.texto-final {
+  text-align: center;
+}
+.texto-final p {
+  color: var(--cor-bege);
+  font-size: 15px;
+  letter-spacing: 2px;
+  padding: 20px;
+}
+.texto-final p {
+  font-weight: 600;
 }
