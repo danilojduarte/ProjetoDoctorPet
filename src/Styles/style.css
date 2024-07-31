@@ -553,6 +553,6 @@ p span {
 
 
 .footer {
-  padding: 80px 18%;
-
+  width: 100%;
+  background: var(--cor-marron);
 }
