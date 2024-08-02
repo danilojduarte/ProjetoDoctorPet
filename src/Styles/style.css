@@ -681,12 +681,20 @@ p span {
   }
   .navbar {
     position: absolute;
-    top: 100%;
+    top: -700pc;
     left: 0;
     right: 0;
     flex-direction: column;
     background: var(--cor-branca);
     align-items: center;
-    box-shadow: 0px 0px 1px #13084;
+    box-shadow: 0px 0px 1px #13084982;
+  }
+  .navbar a {
+    display: block;
+    padding: 0.8rem;
+    margin: 0.5rem;
+  }
+  .navbar.open {
+    top:  100%;
   }
 }
