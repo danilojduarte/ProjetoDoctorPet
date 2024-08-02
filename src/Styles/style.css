@@ -650,3 +650,43 @@ p span {
 .texto-final p {
   font-weight: 600;
 }
+
+/* =========== RESPONSIVIDADE =========== */
+
+@media (max-width: 1640px) {
+  .home {
+    height: 80vh;
+    padding-top: 100px;
+  }
+  header {
+    padding: 14px 3%;
+    transition: .3s;
+  }
+  header.sticky {
+    padding: 10px 3%;
+    transition: .3s;
+  }
+  section {
+    padding: 70px 3%;
+    transition: .3s;
+  }
+}
+
+@media (max-width: 1110px) {
+  #menu-icon {
+    display: block;
+  }
+  .top-btn {
+    display: none;
+  }
+  .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background: var(--cor-branca);
+    align-items: center;
+    box-shadow: 0px 0px 1px #13084;
+  }
+}
