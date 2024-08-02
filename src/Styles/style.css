@@ -191,6 +191,11 @@ p span {
 }
 
 /* =========== SERVIÇOS =========== */
+.servicos {
+  width: 100%;
+  height: auto;
+  background: var(--cor-bg);
+}
 .servicos-texto {
   text-align: center;
 }
@@ -512,6 +517,20 @@ p span {
   padding: 20px 15px;
   border-radius: 0px 0px 20px 20px;
   background: var(--cor-bg);
+}
+.news-texto h2 {
+  font-size: var(--font-h2);
+  color: var(--cor-bege);
+  margin: 2px 0px 5px;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+.news-texto p {
+  font-size: var(--font-p);
+  color: var(--cor-preta);
+  line-height: 30px;
+  font-weight: 200;
+  text-align: justify;
 }
 .blog-texto h6 {
   font-size: 13px;
