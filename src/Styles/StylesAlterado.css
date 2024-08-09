@@ -681,6 +681,7 @@ header.sticky {
   }
   .home-img {
       text-align: center;
+      padding-bottom: 1rem;
   }
   .home-img img {
       width: 400px;
@@ -700,7 +701,7 @@ header.sticky {
   }
 
   .about-img img {
-      padding-top: 0px;
+      padding-top: 2rem;
   }
   section {
       padding: 65px 3%;
